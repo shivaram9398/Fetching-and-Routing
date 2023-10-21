@@ -1,0 +1,30 @@
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.blog-details-title {
+  color: black;
+  font-size: 27px;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.author-pic {
+  height: 50px;
+  border-radius: 30px;
+}
+
+.blog-image {
+  height: 40vh;
+  width: 100%;
+}
